@@ -1,0 +1,69 @@
+
+body {
+    background-color: #f0f0f0;
+    background-image: url(/gif/foto/fon.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+}
+
+
+* {
+    color: black;
+    text-align: center;
+    justify-content: center;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+
+.section {
+    background-color: white;
+    border-radius: 10px;
+    border: 4px dashed pink;
+    padding-bottom: 20px;
+    margin: 0px 360px;
+    width: 600px;
+    margin-top: 40px;
+}
+
+
+.valent-text {
+    font-size: 40px;
+}
+
+.Valent-button {
+    display: flex; 
+    flex-direction: row;
+    font-size: 1.2em;
+}
+
+.Valent-button a {
+    background-color: greenyellow;
+    margin-right: 20px;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.Valent-button .net {
+    background-color: rgb(252, 78, 78);
+    border-radius: 5px;
+    padding: 20px;
+    margin-left: 100px;
+}
+
+.Valent-gif {
+    margin-bottom: 40px;
+}
+
+.Valent-gif img {
+    margin-left: 40px;
+}
+
+.Valent-gif > ul {
+    padding-left: 0px;
+}
+
+.Valent-gif .gifka {
+    margin: 0px;
+}
